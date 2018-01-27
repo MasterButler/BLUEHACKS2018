@@ -6,10 +6,13 @@ public class Beneficiary {
 	private String name;
 	private String description;
 	private String category;
+	private String location;
+	
 	//directory
 	private String pictureDirectory;
 	private String videoURL;
 
+	private long numDonations;
 	private long goalMoney;
 	private long currentMoney; 
 	
@@ -19,8 +22,29 @@ public class Beneficiary {
 	//private ArrayList<Miscellaneous> miscNeeded;
 	public Beneficiary() {
 		currentMoney = 0;
+		numDonations = 0;
 	}
 	
+	public long getNumDonations() {
+		return numDonations;
+	}
+
+	public void setNumDonations(long numDonations) {
+		this.numDonations = numDonations;
+	}
+	
+	public void incrementDonations() {
+		this.numDonations++;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+	
+	
+	public void setLocation(String location) {
+		this.location = location;
+	}
 	
 	public String getName() {
 		return name;

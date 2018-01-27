@@ -20,6 +20,7 @@ public class BeneficiaryManager {
 		aeta.setPictureDirectory(ImageUtil.concatPathToFileName("aeta.jpeg"));
 		aeta.setCategory("Indigenous People");
 		aeta.setVideoURL("kn9NgqcHIpI");
+		aeta.setLocation("Isolated mountainrts in Luzon");
 		
 		//SAMPLE GROUP 2
 		Beneficiary mangyan = new Beneficiary();
@@ -30,6 +31,7 @@ public class BeneficiaryManager {
 		mangyan.setPictureDirectory(ImageUtil.concatPathToFileName("mangyan.jpg"));
 		mangyan.setVideoURL("5GxFf0TS4b0");
 		mangyan.setCategory("Indigenous People");
+		mangyan.setLocation("Mindoro");
 				
 		//SAMPLE GROUP 3
 		Beneficiary tboli = new Beneficiary();
@@ -40,6 +42,7 @@ public class BeneficiaryManager {
 		tboli.setPictureDirectory(ImageUtil.concatPathToFileName("tboli.jpg"));
 		tboli.setVideoURL("FgE94-jkL7Y");
 		tboli.setCategory("Indigenous People");
+		tboli.setLocation("South Cotabato");
 		
 		
 		Beneficiary blind = new Beneficiary();
@@ -52,7 +55,7 @@ public class BeneficiaryManager {
 		blind.setPictureDirectory(ImageUtil.concatPathToFileName("blind.jpg"));
 		blind.setVideoURL("y5I59tXdZXg");
 		blind.setCategory("PWD");
-		
+		blind.setLocation("Mountain Province");
 		
 		
 		Beneficiary deaf = new Beneficiary();
@@ -65,7 +68,7 @@ public class BeneficiaryManager {
 		deaf.setPictureDirectory(ImageUtil.concatPathToFileName("deaf.jpg"));
 		deaf.setVideoURL("ecmCHXZkTGI");
 		deaf.setCategory("PWD");
-		
+		deaf.setLocation("Abra");
 		
 		Beneficiary alzheimers = new Beneficiary();
 		
@@ -77,6 +80,7 @@ public class BeneficiaryManager {
 		alzheimers.setPictureDirectory(ImageUtil.concatPathToFileName("alzheimers.jpg"));
 		alzheimers.setVideoURL("yJXTXN4xrI8");
 		alzheimers.setCategory("PWD");
+		alzheimers.setLocation("Apayao");
 		
 		beneficiaryList.add(aeta);
 		beneficiaryList.add(mangyan);
