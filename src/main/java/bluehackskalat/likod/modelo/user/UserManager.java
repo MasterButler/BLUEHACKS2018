@@ -21,6 +21,7 @@ public class UserManager {
 		user1.setBDayMonth(11);
 		user1.setBDayYear(1998);
 		
+		user1.setFinishedTasks(1);
 		user1.setCreditCount(1000);
 		
 		userList.add(user1);

@@ -26,3 +26,7 @@ target/classes/bluehackskalat/likod/modelo/kahoysaloob/LoginManager\.class
 target/classes/bluehackskalat/likod/modelo/ibapa/Miscellaneous\.class
 
 target/classes/bluehackskalat/likod/modelo/user/UserManager\.class
+
+target/classes/bluehackskalat/likod/modelo/beneficiary/Miscellaneous\.class
+
+target/classes/bluehackskalat/likod/modelo/user/User\.class

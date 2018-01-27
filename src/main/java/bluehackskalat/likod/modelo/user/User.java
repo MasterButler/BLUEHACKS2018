@@ -12,6 +12,43 @@ public class User {
 	private int bDayYear;
 	
 	private long creditCount;
+	private long finishedTasks;
+
+	public int getbDayDate() {
+		return bDayDate;
+	}
+
+	public void setbDayDate(int bDayDate) {
+		this.bDayDate = bDayDate;
+	}
+
+	public int getbDayMonth() {
+		return bDayMonth;
+	}
+
+	public void setbDayMonth(int bDayMonth) {
+		this.bDayMonth = bDayMonth;
+	}
+
+	public int getbDayYear() {
+		return bDayYear;
+	}
+
+	public void setbDayYear(int bDayYear) {
+		this.bDayYear = bDayYear;
+	}
+
+	public long getFinishedTasks() {
+		return finishedTasks;
+	}
+
+	public void setFinishedTasks(long finishedTasks) {
+		this.finishedTasks = finishedTasks;
+	}
+	
+	public void incrementFinishedTasks() {
+		this.finishedTasks++;
+	}
 
 	public String getName() {
 		return name;
