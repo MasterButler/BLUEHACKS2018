@@ -18,6 +18,7 @@ public class BeneficiaryManager {
 		aeta.setGoalMoney(10000);
 		aeta.setCurrentMoney(0);
 		aeta.setPictureDirectory(ImageUtil.concatPathToFileName("aeta.jpeg"));
+		aeta.setCategory("Indigenous People");
 		aeta.setVideoURL("kn9NgqcHIpI");
 		
 		//SAMPLE GROUP 2
@@ -28,6 +29,7 @@ public class BeneficiaryManager {
 		mangyan.setCurrentMoney(0);
 		mangyan.setPictureDirectory(ImageUtil.concatPathToFileName("mangyan.jpg"));
 		mangyan.setVideoURL("5GxFf0TS4b0");
+		mangyan.setCategory("Indigenous People");
 				
 		//SAMPLE GROUP 3
 		Beneficiary tboli = new Beneficiary();
@@ -36,18 +38,20 @@ public class BeneficiaryManager {
 		tboli.setGoalMoney(20000);
 		tboli.setCurrentMoney(0);
 		tboli.setPictureDirectory(ImageUtil.concatPathToFileName("tboli.jpg"));
-		tboli.setVideoURL("");
+		tboli.setVideoURL("FgE94-jkL7Y");
+		tboli.setCategory("Indigenous People");
 		
 		
 		Beneficiary blind = new Beneficiary();
 		
 		//SAMPLE GROUP 4
-		blind.setName("Juan");           
+		blind.setName("Juana");           
 		blind.setDescription("Visual impairment, also known as vision impairment or vision loss, is a decreased ability to see to a degree that causes problems not fixable by usual means, such as glasses. Some also include those who have a decreased ability to see because they do not have access to glasses or contact lenses. Visual impairment is often defined as a best corrected visual acuity of worse than either 20/40 or 20/60. The term blindness is used for complete or nearly complete vision loss. Visual impairment may cause people difficulties with normal daily activities such as driving, reading, socializing, and walking.");
 		blind.setGoalMoney(20300);
 		blind.setCurrentMoney(0);
 		blind.setPictureDirectory(ImageUtil.concatPathToFileName("blind.jpg"));
-		blind.setVideoURL("FgE94-jkL7Y");
+		blind.setVideoURL("y5I59tXdZXg");
+		blind.setCategory("PWD");
 		
 		
 		
@@ -60,6 +64,7 @@ public class BeneficiaryManager {
 		deaf.setCurrentMoney(0);
 		deaf.setPictureDirectory(ImageUtil.concatPathToFileName("deaf.jpg"));
 		deaf.setVideoURL("ecmCHXZkTGI");
+		deaf.setCategory("PWD");
 		
 		
 		Beneficiary alzheimers = new Beneficiary();
@@ -71,6 +76,7 @@ public class BeneficiaryManager {
 		alzheimers.setCurrentMoney(0);
 		alzheimers.setPictureDirectory(ImageUtil.concatPathToFileName("alzheimers.jpg"));
 		alzheimers.setVideoURL("yJXTXN4xrI8");
+		alzheimers.setCategory("PWD");
 		
 		beneficiaryList.add(aeta);
 		beneficiaryList.add(mangyan);

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Beneficiary {
 	private String name;
 	private String description;
+	private String category;
 	//directory
 	private String pictureDirectory;
 	private String videoURL;
@@ -101,6 +102,18 @@ public class Beneficiary {
 	public int getPercentageToGoal() {
 		return (int)(goalMoney/currentMoney);
 	}
+
+
+	public String getCategory() {
+		return category;
+	}
+
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	
+	
 	
 //	public ArrayList<Miscellaneous> getMiscNeeded() {
 //		return miscNeeded;
