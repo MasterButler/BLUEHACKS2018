@@ -10,3 +10,7 @@ target/classes/bluehackskalat/likod/controller/BeneficiaryController\.class
 target/classes/bluehackskalat/likod/controller/DonateController\.class
 
 target/classes/bluehackskalat/likod/controller/UserController\.class
+
+target/classes/bluehackskalat/likod/modelo/trabaho/Job\.class
+
+target/classes/bluehackskalat/likod/modelo/trabaho/JobManager\.class
