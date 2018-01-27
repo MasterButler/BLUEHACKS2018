@@ -1,3 +1,10 @@
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.imageio.ImageIO;
+
 import bluehackskalat.likod.modelo.beneficiary.Beneficiary;
 import bluehackskalat.likod.modelo.beneficiary.BeneficiaryManager;
 import bluehackskalat.likod.modelo.user.User;
@@ -5,7 +12,11 @@ import bluehackskalat.likod.modelo.user.UserManager;
 import bluehackskalat.likod.transaksyon.DonationManager;
 
 public class Driver {
-	public static void main(String[] args) {
+	public static void main(String[] args){
+//		read images from directory
+//		InputStream resourceAsStream = Driver.class.getClassLoader().getResourceAsStream("yuta.png");
+//		String here = System.getProperty("user.dir") + "\\src\\main\\resources\\yuta.png";
+//		BufferedImage img = ImageIO.read(new File(here));
 		
 		for(int i = 0; i < BeneficiaryManager.getInstance().getAllBeneficiary().size(); i++) {
 			System.out.println("======" + (i+1) + "======");
