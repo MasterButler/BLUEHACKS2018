@@ -98,6 +98,10 @@ public class Beneficiary {
 		this.galleryDirectory.remove(imageDirectory);
 	}
 	
+	public int getPercentageToGoal() {
+		return (int)(goalMoney/currentMoney);
+	}
+	
 //	public ArrayList<Miscellaneous> getMiscNeeded() {
 //		return miscNeeded;
 //	}

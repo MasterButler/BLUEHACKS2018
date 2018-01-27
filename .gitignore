@@ -4,3 +4,9 @@ target/classes/bluehackskalat/likod/modelo/beneficiary/Beneficiary\.class
 target/classes/bluehackskalat/likod/modelo/beneficiary/BeneficiaryManager\.class
 
 target/classes/Driver\.class
+
+target/classes/bluehackskalat/likod/controller/BeneficiaryController\.class
+
+target/classes/bluehackskalat/likod/controller/DonateController\.class
+
+target/classes/bluehackskalat/likod/controller/UserController\.class
