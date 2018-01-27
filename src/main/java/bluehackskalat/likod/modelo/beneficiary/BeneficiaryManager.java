@@ -18,7 +18,7 @@ public class BeneficiaryManager {
 		aeta.setGoalMoney(10000);
 		aeta.setCurrentMoney(0);
 		aeta.setPictureDirectory(ImageUtil.concatPathToFileName("aeta.jpeg"));
-		aeta.setVideoURL("");
+		aeta.setVideoURL("kn9NgqcHIpI");
 		
 		//SAMPLE GROUP 2
 		Beneficiary mangyan = new Beneficiary();
@@ -27,7 +27,7 @@ public class BeneficiaryManager {
 		mangyan.setGoalMoney(100);
 		mangyan.setCurrentMoney(0);
 		mangyan.setPictureDirectory(ImageUtil.concatPathToFileName("mangyan.jpg"));
-		mangyan.setVideoURL("");
+		mangyan.setVideoURL("5GxFf0TS4b0");
 				
 		//SAMPLE GROUP 3
 		Beneficiary tboli = new Beneficiary();
@@ -47,7 +47,7 @@ public class BeneficiaryManager {
 		blind.setGoalMoney(20300);
 		blind.setCurrentMoney(0);
 		blind.setPictureDirectory(ImageUtil.concatPathToFileName("blind.jpg"));
-		blind.setVideoURL("");
+		blind.setVideoURL("FgE94-jkL7Y");
 		
 		
 		
@@ -55,11 +55,11 @@ public class BeneficiaryManager {
 		
 		//SAMPLE GROUP 1
 		deaf.setName("Hannah");           
-		deaf.setDescription("A person who is not able to hear as well as someone with normal hearing – hearing thresholds of 25 dB or better in both ears – is said to have hearing loss. Hearing loss may be mild, moderate, severe, or profound. It can affect one ear or both ears, and leads to difficulty in hearing conversational speech or loud sounds.");
+		deaf.setDescription("A person who is not able to hear as well as someone with normal hearing thresholds of 25 dB or better in both ears is said to have hearing loss. Hearing loss may be mild, moderate, severe, or profound. It can affect one ear or both ears, and leads to difficulty in hearing conversational speech or loud sounds.");
 		deaf.setGoalMoney(60000);
 		deaf.setCurrentMoney(0);
 		deaf.setPictureDirectory(ImageUtil.concatPathToFileName("deaf.jpg"));
-		deaf.setVideoURL("");
+		deaf.setVideoURL("ecmCHXZkTGI");
 		
 		
 		Beneficiary alzheimers = new Beneficiary();
@@ -70,7 +70,7 @@ public class BeneficiaryManager {
 		alzheimers.setGoalMoney(20000);
 		alzheimers.setCurrentMoney(0);
 		alzheimers.setPictureDirectory(ImageUtil.concatPathToFileName("alzheimers.jpg"));
-		alzheimers.setVideoURL("");
+		alzheimers.setVideoURL("yJXTXN4xrI8");
 		
 		beneficiaryList.add(aeta);
 		beneficiaryList.add(mangyan);
