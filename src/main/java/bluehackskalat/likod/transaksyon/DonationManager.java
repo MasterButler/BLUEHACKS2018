@@ -8,6 +8,7 @@ public class DonationManager {
 	
 	public static boolean donateUsingMoney(User u, long amount, Beneficiary b) {
 		b.addCurrentMoney(amount);
+		u.addMoneyDonated(amount);
 		return true;
 	}
 	
@@ -15,7 +16,7 @@ public class DonationManager {
 		if(amount <= u.getCreditCount()) {
 			u.deductCreditCount(amount);
 			b.addCurrentMoney(amount);
-			
+			u.addCreditDonated(amount);
 			return true;
 		}
 		return false;

@@ -30,3 +30,5 @@ target/classes/bluehackskalat/likod/modelo/user/UserManager\.class
 target/classes/bluehackskalat/likod/modelo/beneficiary/Miscellaneous\.class
 
 target/classes/bluehackskalat/likod/modelo/user/User\.class
+
+target/classes/bluehackskalat/likod/transaksyon/DonationManager\.class

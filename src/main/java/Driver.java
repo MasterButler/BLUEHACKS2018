@@ -36,16 +36,30 @@ public class Driver {
 		
 		DonationManager.donateUsingMoney(u, 1000, b);
 		System.out.println(b.getName() + " money: " + b.getCurrentMoney() + "/" + b.getGoalMoney());
+		System.out.println();
+		System.out.println("DONATED MONEY TOTAL: " + u.getMoneyDonated());
+		System.out.println("DONATE CREDIT TOTAL: " + u.getCreditDonated());
+		System.out.println();
 		
 		System.out.println();
 		System.out.println("Credit Count: " + u.getCreditCount());
 		System.out.println(DonationManager.donateUsingCredit(u, 2000, b));
 		System.out.println(b.getName() + " money: " + b.getCurrentMoney() + "/" + b.getGoalMoney());
+		System.out.println();
+		System.out.println("DONATED MONEY TOTAL: " + u.getMoneyDonated());
+		System.out.println("DONATE CREDIT TOTAL: " + u.getCreditDonated());
+		System.out.println();
+
 		
 		System.out.println();
 		System.out.println("Credit Count: " + u.getCreditCount());
 		System.out.println(DonationManager.donateUsingCredit(u, 1000, b));
 		System.out.println(b.getName() + " money: " + b.getCurrentMoney() + "/" + b.getGoalMoney());
+		System.out.println();
+		System.out.println("DONATED MONEY TOTAL: " + u.getMoneyDonated());
+		System.out.println("DONATE CREDIT TOTAL: " + u.getCreditDonated());
+		System.out.println();
+
 		
 //		User toLog = LoginManager.loginUser("wisner@gmail.com", "pass");
 //		System.out.println(toLog.getName());

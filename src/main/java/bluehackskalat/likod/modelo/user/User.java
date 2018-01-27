@@ -14,6 +14,16 @@ public class User {
 	private long creditCount;
 	private long finishedTasks;
 
+	private long moneyDonated;
+	private long creditDonated;
+	
+	public User() {
+		creditCount = 0;
+		finishedTasks = 0;
+		moneyDonated = 0;
+		creditDonated = 0;
+	}
+	
 	public int getbDayDate() {
 		return bDayDate;
 	}
@@ -121,5 +131,28 @@ public class User {
 	public void deductCreditCount(long toRemove) {
 		creditCount -= toRemove;
 	}
+
+	public long getMoneyDonated() {
+		return moneyDonated;
+	}
+
+	public void setMoneyDonated(long MoneyDonated) {
+		this.moneyDonated = moneyDonated;
+	}
+
+	public long getCreditDonated() {
+		return creditDonated;
+	}
+
+	public void setCreditDonated(long creditDonated) {
+		this.creditDonated = creditDonated;
+	}
 	
+	public void addMoneyDonated(long moneyDonated) {
+		this.moneyDonated += moneyDonated;
+	}
+	
+	public void addCreditDonated(long creditDonated) {
+		this.creditDonated += creditDonated;
+	}
 }
