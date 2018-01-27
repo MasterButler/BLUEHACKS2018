@@ -61,6 +61,13 @@ public class BeneficiaryManager {
 		}
 		return null;
 	}
+	
+	public Beneficiary getBeneficiary(int index) {
+		if(index < beneficiaryList.size()) {
+			return beneficiaryList.get(index);
+		}
+		return null;
+	}
 
 	public ArrayList<Beneficiary> getAllBeneficiary() {
 		return beneficiaryList;

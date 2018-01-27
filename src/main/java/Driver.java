@@ -6,11 +6,10 @@ import bluehackskalat.likod.transaksyon.DonationManager;
 
 public class Driver {
 	public static void main(String[] args) {
-		BeneficiaryManager bm = BeneficiaryManager.getInstance();
 		
-		for(int i = 0; i < bm.getAllBeneficiary().size(); i++) {
+		for(int i = 0; i < BeneficiaryManager.getInstance().getAllBeneficiary().size(); i++) {
 			System.out.println("======" + (i+1) + "======");
-			System.out.println(bm.getAllBeneficiary().get(i).getName());
+			System.out.println(BeneficiaryManager.getInstance().getAllBeneficiary().get(i).getName());
 		}
 		Beneficiary b = BeneficiaryManager.getInstance().getAllBeneficiary().get(0);
 		User u = UserManager.getInstance().getAllUser().get(0);

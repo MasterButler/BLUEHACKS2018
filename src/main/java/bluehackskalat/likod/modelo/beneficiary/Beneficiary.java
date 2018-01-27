@@ -12,6 +12,9 @@ public class Beneficiary {
 	private long goalMoney;
 	private long currentMoney;
 	
+	//for storing the different images that will be seen in the gallery
+	private ArrayList<String> galleryDirectory;
+	
 	//private ArrayList<Miscellaneous> miscNeeded;
 	public Beneficiary() {
 		currentMoney = 0;
@@ -76,6 +79,23 @@ public class Beneficiary {
 	
 	public boolean isGoalReached() {
 		return (currentMoney >= goalMoney) ? true : false;
+	}
+
+
+	public ArrayList<String> getGalleryDirectory() {
+		return galleryDirectory;
+	}
+
+	public void setGalleryDirectory(ArrayList<String> galleryDirectory) {
+		this.galleryDirectory = galleryDirectory;
+	}
+	
+	public void addImageInGalleryDirectory(String imageDirectory) {
+		this.galleryDirectory.add(imageDirectory);
+	}
+	
+	public void removeImageInGalleryDirectory(String imageDirectory) {
+		this.galleryDirectory.remove(imageDirectory);
 	}
 	
 //	public ArrayList<Miscellaneous> getMiscNeeded() {
