@@ -40,9 +40,9 @@ public class UserManager {
 		return false;
 	}
 	
-	public User getUser(String contactNo) {
+	public User getUser(String email) {
 		for(User u: userList) {
-			if(u.getContactNo().equalsIgnoreCase(contactNo)) {
+			if(u.getEmail().equalsIgnoreCase(email)) {
 				return u;
 			}
 		}

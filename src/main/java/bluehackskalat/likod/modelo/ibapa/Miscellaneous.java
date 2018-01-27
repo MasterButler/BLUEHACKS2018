@@ -1,4 +1,4 @@
-package bluehackskalat.likod.modelo.beneficiary;
+package bluehackskalat.likod.modelo.ibapa;
 
 public class Miscellaneous {
 	private String name;

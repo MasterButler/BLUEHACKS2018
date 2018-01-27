@@ -18,3 +18,11 @@ target/classes/bluehackskalat/likod/modelo/trabaho/JobManager\.class
 target/classes/bluehackskalat/likod/tagatulong/ImageUtil\.class
 
 target/classes/bluehackskalat/likod/controller/JobController\.class
+
+target/classes/bluehackskalat/likod/modelo/kahoysaloob/LoginCredentials\.class
+
+target/classes/bluehackskalat/likod/modelo/kahoysaloob/LoginManager\.class
+
+target/classes/bluehackskalat/likod/modelo/ibapa/Miscellaneous\.class
+
+target/classes/bluehackskalat/likod/modelo/user/UserManager\.class

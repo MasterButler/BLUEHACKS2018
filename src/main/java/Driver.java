@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 import bluehackskalat.likod.controller.BeneficiaryController;
 import bluehackskalat.likod.modelo.beneficiary.Beneficiary;
 import bluehackskalat.likod.modelo.beneficiary.BeneficiaryManager;
+import bluehackskalat.likod.modelo.kahoysaloob.LoginManager;
 import bluehackskalat.likod.modelo.trabaho.JobManager;
 import bluehackskalat.likod.modelo.user.User;
 import bluehackskalat.likod.modelo.user.UserManager;
@@ -22,7 +23,13 @@ public class Driver {
 		
 		for(int i = 0; i < BeneficiaryManager.getInstance().getAllBeneficiary().size(); i++) {
 			System.out.println("======" + (i+1) + "======");
-			System.out.println(BeneficiaryManager.getInstance().getAllBeneficiary().get(i).getName());
+			Beneficiary b = BeneficiaryManager.getInstance().getAllBeneficiary().get(i);
+			System.out.println(b.getName());
+			System.out.println("=============");
+			System.out.println(b.getDescription());
+			System.out.println(b.getPictureDirectory());
+			System.out.println("MONEY: " + b.getCurrentMoney() + "/" + b.getGoalMoney());
+			System.out.println();
 		}
 		Beneficiary b = BeneficiaryManager.getInstance().getAllBeneficiary().get(0);
 		User u = UserManager.getInstance().getAllUser().get(0);
@@ -39,5 +46,8 @@ public class Driver {
 		System.out.println("Credit Count: " + u.getCreditCount());
 		System.out.println(DonationManager.donateUsingCredit(u, 1000, b));
 		System.out.println(b.getName() + " money: " + b.getCurrentMoney() + "/" + b.getGoalMoney());
+		
+//		User toLog = LoginManager.loginUser("wisner@gmail.com", "pass");
+//		System.out.println(toLog.getName());
 	}
 }
