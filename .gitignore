@@ -16,3 +16,5 @@ target/classes/bluehackskalat/likod/modelo/trabaho/Job\.class
 target/classes/bluehackskalat/likod/modelo/trabaho/JobManager\.class
 
 target/classes/bluehackskalat/likod/tagatulong/ImageUtil\.class
+
+target/classes/bluehackskalat/likod/controller/JobController\.class
