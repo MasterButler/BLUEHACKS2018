@@ -10,7 +10,7 @@ public class Beneficiary {
 	private String videoURL;
 
 	private long goalMoney;
-	private long currentMoney;
+	private long currentMoney; 
 	
 	//for storing the different images that will be seen in the gallery
 	private ArrayList<String> galleryDirectory;

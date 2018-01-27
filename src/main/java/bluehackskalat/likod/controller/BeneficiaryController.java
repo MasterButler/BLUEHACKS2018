@@ -10,9 +10,9 @@ import bluehackskalat.likod.modelo.beneficiary.BeneficiaryManager;
 
 public class BeneficiaryController {
 //	BeneficiaryManager.getInstance();
-	Gson gson = new Gson();
-	
-	public String getAllBeneficiary(){
+	public static String getAllBeneficiary(){
+		Gson gson = new Gson();
+		
 		ArrayList<Beneficiary> bList = BeneficiaryManager.getInstance().getAllBeneficiary();
 		String jsonString;
 		//convert to json
@@ -21,7 +21,9 @@ public class BeneficiaryController {
 		return jsonInString;
 	}
 	
-	public String getBeneficiary(String name) {
+	public static String getBeneficiary(String name) {
+		Gson gson = new Gson();
+		
 		Beneficiary beneficiary = BeneficiaryManager.getInstance().getBeneficiary(name);
 		//convert to json
 		String jsonInString = gson.toJson(beneficiary);

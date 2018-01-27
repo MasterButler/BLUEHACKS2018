@@ -8,8 +8,8 @@ import bluehackskalat.likod.modelo.user.User;
 import bluehackskalat.likod.modelo.user.UserManager;
 
 public class UserController {
-	Gson gson = new Gson();
-	public String getUser(String name) {
+	public static String getUser(String name) {
+		Gson gson = new Gson();
 		User user = UserManager.getInstance().getUser(name);
 		//convert to json
 		String jsonInString = gson.toJson(user);

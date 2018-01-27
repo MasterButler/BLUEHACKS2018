@@ -5,6 +5,7 @@ import java.io.InputStream;
 
 import javax.imageio.ImageIO;
 
+import bluehackskalat.likod.controller.BeneficiaryController;
 import bluehackskalat.likod.modelo.beneficiary.Beneficiary;
 import bluehackskalat.likod.modelo.beneficiary.BeneficiaryManager;
 import bluehackskalat.likod.modelo.trabaho.JobManager;
@@ -38,7 +39,5 @@ public class Driver {
 		System.out.println("Credit Count: " + u.getCreditCount());
 		System.out.println(DonationManager.donateUsingCredit(u, 1000, b));
 		System.out.println(b.getName() + " money: " + b.getCurrentMoney() + "/" + b.getGoalMoney());
-
-//		System.out.println(JobManager.getInstance().getAllJob().get(0).getName());
 	}
 }

@@ -7,7 +7,7 @@ import bluehackskalat.likod.modelo.user.UserManager;
 import bluehackskalat.likod.transaksyon.DonationManager;
 
 public class DonateController {
-	public void donateUsingMoney(String uName, long amount, String bName) {
+	public static void donateUsingMoney(String uName, long amount, String bName) {
 		User u = UserManager.getInstance().getUser(uName);
 		Beneficiary b = BeneficiaryManager.getInstance().getBeneficiary(bName);
 		
@@ -19,7 +19,7 @@ public class DonateController {
 		}
 	}
 	
-	public void donateUsingCredit(String uName, long amount, String bName) {
+	public static void donateUsingCredit(String uName, long amount, String bName) {
 		User u = UserManager.getInstance().getUser(uName);
 		Beneficiary b = BeneficiaryManager.getInstance().getBeneficiary(bName);
 		
